@@ -15,7 +15,7 @@ const refreshRate = 1; // Refresh rate in seconds (default is 1)
 let cpuTemp, battery, wifi, cpuLoad, mem;
 
 const format = {
-    dateFormat: "MMMM Do YYYY, h:mm:ss a", // For more formating info visit https://momentjs.com
+    dateFormat: "MMMM YYYY, dddd h:mm:ss a", // For more date formating info, visit https://momentjs.com
     wlanForamt: "W: ",
     cpuFormat: "CPU: ",
     battFormat: "BATT: ",
@@ -31,9 +31,9 @@ function getStatus() {
     info.mem().then(data => mem=(Math.round(data.used/1048576)));
 
     console.log(""
-    +format.wlanForamt+wifi+sep // WLAN data
-    +format.battFormat+battery+sep // Battery
-    +format.memFormat+mem+" MB"+sep
+    //+format.wlanForamt+wifi+sep // WLAN
+    //+format.battFormat+battery+sep // Battery
+    +format.memFormat+mem+" MB"+sep // Free memory
     +format.cpuFormat+cpuLoad+"%"+sep // CPU load
     +format.tempFormat+cpuTemp+"\u00b0C"+sep // CPU temperature
     +moment().format(format.dateFormat)); // Current date
