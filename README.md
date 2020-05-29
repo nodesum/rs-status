@@ -1,8 +1,19 @@
 # rs-status
 Is a NodeJS-based ridiculously simple status bar generator for i3bar/xmobar/lemonbar.
 
+### Dependencies
+- `NodeJS`
+- `systeminformation`
+- `Moment.js`
+
 ### Using:
-To use rs-status, just type:
+In repo home folder, run:
+~~~ sh
+$ npm install
+~~~
+To install all project dependencies.
+
+Finally, to use rs-status, just type:
 ~~~ sh
 node %PATH_TO_RS-STATUS_FOLER/src/main.js 
 ~~~
@@ -44,8 +55,7 @@ function getStatus() {
     +moment().format(format.dateFormat)); // Current date
 }
 ~~~
-I use `systeminformation` and `Moment.js` packages to get OS and date information.
 
-If you want to customize that status, please visit links below:
+If you want to customize that status bar, please visit links below:
 - https://systeminformation.io/
 - https://momentjs.com/
