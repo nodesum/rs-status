@@ -12,7 +12,7 @@ in your configuration file.
 
 I highly recommend you to see main.js file.
 
-- To format configuration, use this section: 
+To format configuration, use this section: 
 
 ~~~
 const format = {
