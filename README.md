@@ -56,6 +56,6 @@ function getStatus() {
 }
 ~~~
 
-If you want to customize that status bar, please visit links below:
+If you want to customize that status bar, please visit these links below:
 - https://systeminformation.io/
 - https://momentjs.com/
