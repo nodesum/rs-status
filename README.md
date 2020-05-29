@@ -1,5 +1,5 @@
 # rs-status
-= Is a NodeJS-based ridiculously simple status bar generator for i3bar/xmobar/lemonbar.
+- Is a NodeJS-based ridiculously simple status bar generator for i3bar/xmobar/lemonbar.
 
 ### Using:
 To use rs-status, just type:
