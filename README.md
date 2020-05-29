@@ -6,7 +6,7 @@ Is a NodeJS-based ridiculously simple status bar generator for i3bar/xmobar/lemo
 - `systeminformation`
 - `Moment.js`
 
-## Using
+## Usage
 In repo home folder, run:
 ~~~ sh
 $ npm install
