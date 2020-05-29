@@ -6,7 +6,7 @@ To use rs-status, just type:
 ~~~ sh
 node %PATH_TO_RS-STATUS_FOLER/src/main.js 
 ~~~
-in bar's configuration file.
+in your bar configuration file.
 
 ### Configuration:
 
