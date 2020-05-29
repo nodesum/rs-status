@@ -31,8 +31,8 @@ function getStatus() {
     info.mem().then(data => mem=(Math.round(data.used/1048576)));
 
     console.log(""
-    //+format.wlanForamt+wifi+sep // WLAN
-    //+format.battFormat+battery+sep // Battery
+    +format.wlanForamt+wifi+sep // WLAN
+    +format.battFormat+battery+sep // Battery
     +format.memFormat+mem+" MB"+sep // Free memory
     +format.cpuFormat+cpuLoad+"%"+sep // CPU load
     +format.tempFormat+cpuTemp+"\u00b0C"+sep // CPU temperature
