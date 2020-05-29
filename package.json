@@ -1,0 +1,24 @@
+{
+  "name": "rs-status",
+  "version": "3.2.2",
+  "description": "NodeJS-based ridiculously simple status bar generator for i3bar/xmobar/lemonbar",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nodesum",
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "moment-timezone": "^0.5.31",
+    "systeminformation": "^4.26.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodesum/rs-status.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodesum/rs-status/issues"
+  },
+  "homepage": "https://github.com/nodesum/rs-status#readme"
+}
