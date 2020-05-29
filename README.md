@@ -1,12 +1,12 @@
 # rs-status
 Is a NodeJS-based ridiculously simple status bar generator for i3bar/xmobar/lemonbar.
 
-### Dependencies
+## Dependencies
 - `NodeJS`
 - `systeminformation`
 - `Moment.js`
 
-### Using:
+## Using
 In repo home folder, run:
 ~~~ sh
 $ npm install
@@ -19,7 +19,7 @@ node %PATH_TO_RS-STATUS_FOLER/src/main.js
 ~~~
 in your configuration file.
 
-### Configuration:
+## Configuration
 
 I highly recommend you to see main.js file.
 
