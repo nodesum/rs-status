@@ -25,7 +25,7 @@ const format = {
 };
 ~~~
 
-- Almost all configurationg can be done in that section:
+Almost all configurationg can be done in that section:
 
 ~~~
 function getStatus() {
