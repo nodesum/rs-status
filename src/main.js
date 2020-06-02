@@ -15,7 +15,7 @@ const refreshRate = 1; // Refresh rate in seconds (default is 1)
 let cpuTemp, battery, wifi, cpuLoad, mem;
 
 const format = {
-    dateFormat: "MMMM YYYY, dddd h:mm:ss a", // For more date formating info, visit https://momentjs.com
+    dateFormat: "MMMM Do YYYY, h:mm:ss a", // For more date formating info, visit https://momentjs.com
     wlanForamt: "W: ",
     cpuFormat: "CPU: ",
     battFormat: "BATT: ",
