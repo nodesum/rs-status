@@ -33,7 +33,7 @@ In that section you can modify status format as you want:
 const sep = " | " // Separator format
 
 const format = {
-    dateFormat: "MMMM YYYY, dddd h:mm:ss a", // For more date formating info, visit https://momentjs.com
+    dateFormat: "MMMM Do YYYY, h:mm:ss a", // For more date formating info, visit https://momentjs.com
     wlanForamt: "W: ",
     cpuFormat: "CPU: ",
     battFormat: "BATT: ",
